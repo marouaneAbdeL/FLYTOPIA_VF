@@ -1,0 +1,191 @@
+/* Ajout d'un style de police global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Ajout d'une transition pour les boutons */
+button {
+  transition: all 0.3s;
+}
+
+/* Ajout d'un effet de survol pour les boutons */
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Amélioration du style des options */
+.options {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.optionItem {
+  padding: 5px 0;
+}
+
+.optionCounter {
+  font-weight: 500;
+}
+
+/* Ajout d'un effet de survol pour les éléments de la liste d'en-tête */
+.headerListItem:hover {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Ajout d'un effet de survol pour la zone de recherche */
+.headerSearch:hover {
+  border-color: #000000;
+}
+
+/* Ajout d'un effet de survol pour le texte de recherche */
+.headerSearchText:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+.header {
+  background-color: #ffffff; /* Updated background color to white */
+  color: #000000; /* Updated color to black */
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+
+.headerContainer.listMode {
+  margin: 20px 0px 0px 0px;
+}
+
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerListItem.active {
+  border: 1px solid black; /* Updated border color to black */
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.headerDesc {
+  margin: 20px 0px;
+}
+
+.headerBtn {
+  background-color: #000000; /* Updated background color to black */
+  color: #ffffff; /* Updated color to white */
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.headerSearch {
+  height: 30px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.headerIcon {
+  color: #000000; /* Updated color to black */
+}
+
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerSearchInput {
+  border: none;
+  outline: none;
+}
+
+.headerSearchText {
+  color: #000000;
+  cursor: pointer;
+}
+
+.date {
+  position: absolute;
+  top: 50px;
+  z-index: 2;
+}
+
+.options {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  background-color: white;
+  color: gray;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.optionItem {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: black;
+}
+
+.optionCounterButton {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000000; /* Updated border color to black */
+  color: #000000;
+  cursor: pointer;
+  background-color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.optionCounterButton:disabled {
+  cursor: not-allowed;
+}

@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+    max-width: 20rem;
+    margin: 10% auto;
+    
+   
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+}
+
+.erreur {
+    color: #a00;
+}
+
+.erreur::before {
+    content: '* ';
+}
+@media(min-width: 45rem) {
+    .form {
+        height: 26rem;
+    }
+
+    
+}

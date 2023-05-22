@@ -1,0 +1,100 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.lContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.lInput {
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.lButton {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.lButton:hover {
+  background-color: #333333;
+}
+
+.lButton:disabled {
+  background-color: #0000008c;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .register {
+    padding: 50px;
+  }
+
+  .lContainer {
+    max-width: 600px;
+  }
+
+  .lInput {
+    font-size: 18px;
+  }
+
+  .lButton {
+    font-size: 18px;
+  }
+
+  .error {
+    font-size: 16px;
+  }
+}
+.loginPrompt {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loginLink {
+  font-weight: bold;
+  color: #0071c2;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.loginLink:hover {
+  color: #005b9a;
+}
