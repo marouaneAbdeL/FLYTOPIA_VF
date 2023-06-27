@@ -82,8 +82,7 @@ const Activity = () => {
       <Header/>
       <div class="presentation-container">
       <section className={"presentation" + ' ' +  "inverse"}>
-            <img src="https://photos.tpn.to/np/fm/ho/mi/653x490.webp"width={500}
-      height={500} />
+            <img src="https://photos.tpn.to/np/fm/ho/mi/653x490.webp" />
             <div>
                 <h2>LEARN TO SURF!</h2>
                 <h3>Taghazout</h3>
@@ -99,8 +98,7 @@ const Activity = () => {
             </div>
         </section>
         <section className="presentation">
-            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b3/c9.jpg" alt="&lt;votre_nom&gt;" width={500}
-      height={500} />
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/75/b3/c9.jpg" alt="&lt;votre_nom&gt;" />
             <div>
                 <h2>Dive and Fish !</h2>
                 <h3>AlHoceima</h3>
@@ -114,8 +112,7 @@ const Activity = () => {
         </div>
         
         <section className={"presentation" + ' ' +  "inverse"}>
-            <img src="https://cdn.getyourguide.com/img/tour/5d0a5cac58543.jpeg/98.jpg" width={500} 
-      height={500}/>
+            <img src="https://cdn.getyourguide.com/img/tour/5d0a5cac58543.jpeg/98.jpg" />
             <div>
                 <h2>Quad Bike</h2>
                 <h3>Marrakech</h3>
@@ -129,8 +126,7 @@ const Activity = () => {
         </section>
 
         <section className="presentation">
-            <img src="https://cdn.kimkim.com/files/a/images/543d48b6aebd861127c3eaac108f29051d0725bf/big-b8582c4fa9c8d1f274565001310561ec.jpg" alt="&lt;votre_nom&gt;" width={500}
-      height={500} />
+            <img src="https://cdn.kimkim.com/files/a/images/543d48b6aebd861127c3eaac108f29051d0725bf/big-b8582c4fa9c8d1f274565001310561ec.jpg" alt="&lt;votre_nom&gt;" />
             <div>
                 <h2>Hors Ride</h2>
                 <h3>Essaouira</h3>
@@ -150,8 +146,7 @@ const Activity = () => {
         </section>
 
         <section className={"presentation" + ' ' +  "inverse"}>
-            <img src="https://desert-maroc.com/wordpress2012/wp-content/uploads/LD5A0706-recadre%CC%81.jpg" width={500}
-      height={500}/>
+            <img src="https://desert-maroc.com/wordpress2012/wp-content/uploads/LD5A0706-recadre%CC%81.jpg" />
             <div>
                 <h2>Camel caravan</h2>
                 <h3>Marzouga</h3>

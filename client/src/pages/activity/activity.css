@@ -1,82 +1,41 @@
+.presentation {
+    
+  display: flex;
+  flex-direction: column;
 
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+@media(max-width:80rem){
+  .presentation{
+      margin: 1rem;
+  }
+}
+
+.presentation > div {
   
+  flex: 100;
+}
 
+.presentation > .image {
+  max-width: 100%;
+}
+
+
+@media(min-width: 80rem) {
+  
   .presentation {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    transition: transform 0.3s;
-  }
-  
-  .presentation:hover {
-    transform: translateY(-10px);
-  }
-  
-  .presentation > div {
-    flex: 1;
-    padding: 0 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Ajouté pour centrer verticalement */
-    height: 100%; /* Ajouté pour occuper la hauteur complète */
-  }
-  
-  .presentation > img {
-    max-width: 100%;
-    border-radius: 10px;
-    transition: transform 0.3s;
-  }
-  
-  .presentation:hover > img {
-    transform: scale(1.05);
-  }
-  
-  .presentation h2 {
-    font-size: 24px;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #000000;
-    text-align: center;
-  }
-  
-  .presentation p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: #000000;
-    text-align: center;
-  }
-  
-  .visitWebsite {
-    display: inline-block;
-    margin-top: 8px;
-    color: #000000;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.2s, background-color 0.2s; /* Ajout de la transition pour background-color */
-    padding: 5px 10px;
-    border-radius: 4px;
-  }
-  
-  .visitWebsite:hover {
-    color: #ffffff; /* Couleur du texte au survol */
-    background-color: #000000; /* Couleur d'arrière-plan au survol */
-  }
-  
-  @media (min-width: 45rem) {
-    .presentation {
       flex-direction: row;
       align-items: flex-start;
-    }
-  
-    .presentation.inverse > div {
-      order: -1;
-    }
   }
-  
+
+  .presentation.inverse > div {
+      order: -1;
+  }
+
+}
